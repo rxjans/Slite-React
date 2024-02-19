@@ -52,3 +52,13 @@
     @apply py-8 lg:py-24 lg:h-screen flex items-center;
   }
 }
+
+@layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+      display: none;
+  }
+  .no-scrollbar {
+      -ms-overflow-style: none;  
+      scrollbar-width: none; 
+}
+}

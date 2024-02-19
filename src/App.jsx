@@ -67,7 +67,7 @@ function App() {
                           </div>
                         </div>  
             
-                    <div className='flex flex-col items-center h-[250px] w-[300px] md:h-[320px] md:w-[320px] lg:h-[480px] lg:w-[480px] rounded-2xl bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-b-2 border-gray-100'>  
+                    <div className='overflow-y-scroll no-scrollbar flex flex-col items-center h-[250px] w-[300px] md:h-[320px] md:w-[320px] lg:h-[480px] lg:w-[480px] rounded-2xl bg-gray-400 bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 border-b-2 border-gray-100'>  
                     <h3 className=' text-gradient text-center mt-8 mb-8 font-secondary border-b-2 w-[100px] rounded-2xl hover:backdrop-blur-sm cursor-pointer'>PLAYLIST</h3>
                       <ul>
                         {playlist.map((track, index) => (
